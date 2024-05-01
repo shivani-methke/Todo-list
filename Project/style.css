@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(252, 187, 209);
+    color: white;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.center {
+    flex: 3;
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.right i {
+    color:black;
+    font-size: 35px;
+    padding: 12px; 
+}
+  
+
+
+
+.clock{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-box {
+    box-shadow: 10px 8px 8px 4px rgba(110, 113, 110, 0.2);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color:papayawhip;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.time {
+    font-size: 24px;
+}
+
+.day-date {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.main{
+    min-height: 200px;
+    padding: 20px; 
+
+}
+
+
+.container-first {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    font-size: 28px;
+}
+
+
+.body {
+    text-align: center;
+    flex: 1 1 200px; 
+    max-width: 250px; 
+    margin: 10px;
+
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    margin-bottom: 0px; 
+}
+
+
+.shivani1,.shivani2,.shivani3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #7eeaf1;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.starting1 {
+    font-size: 14px;
+    color: #666;
+}
+
+.adding {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  
+}
+
+
+
+button {
+    margin: 0 10px;
+    padding: 8px 8px;
+    background-color: #5eadb6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-button{
+    width: 250px;
+    background-color:#5eadb6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    height: 50px;
+    width: 85px;
+}
+
+.todo-input {
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.todo-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.new{
+    height: 150px;
+    width: 100%;
+
+}
+
+.content {
+    margin-left: 470px;
+    margin-top: 30px;
+    background-color: #fefefe;
+    height: 130px;
+    border: 1px solid #888;
+    width: 500px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(199, 245, 245);
+
+}
+
+
+.stop {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.footer {
+    align-items: center;
+    padding: 30px;
+    text-align: center; 
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#toDo{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+
+
+#List {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+button.delete-btn {
+    margin-right: 10px;
+}
+
+button.edit-btn {
+    margin-right: 10px;
+}
+
+button.complete-btn {
+    margin-right: 10px;
+}
+
+/* #taskList{
+    background-color: red
+}
+
+li{
+    background-color: #dcff73;
+} */

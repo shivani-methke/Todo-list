@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="container">
+        <div class="left">
+            <img src="images.jpg" alt="Left Image">
+        </div>
+        <div class="center">
+            <h1>To-Do List</h1>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-toggle-on"></i>
+        </div>
+    </nav>
+
+    <div class="clock">
+        <div class="clock-box">
+            <div class="time" id="time"></div>
+            <div class="day-date" id="dayDate"></div>
+        </div>
+    </div>
+
+    
+
+
+
+    <div class="main">
+        <div class="container-first">
+            <div class="body">
+                <span class="shivani1">0</span><br>
+                <span class="label">Total Tasks</span><br>
+                <span class="starting1">Number of tasks you have created</span>
+            </div>
+
+            <div class="body">
+                <span class="shivani2">0</span><br>
+                <span class="label">Remaining To Do</span><br>
+                <span class="starting1">Tasks remaining to complete.</span>
+            </div>
+
+            <div class="body">
+                <span class="shivani3">0</span><br>
+                <span class="label">Completed Tasks</span><br>
+                <span class="starting1">Total Number of tasks completed</span>
+            </div>
+        </div>
+
+
+        <div class="adding">
+            <button id="add-button">Add a new task</button>
+            <button>
+                <select name="todos" class="filter-todo" style="border: none; background-color:#0097a7;">
+                    <option value="all" style="color: #fff">All</option>
+                    <option value="completed" style="color: #fff">Completed</option>
+                    <option value="incomplete" style="color: #fff">Incomplete</option>
+                </select>
+            </button>
+        </div>
+
+
+
+        <div id="myModal" class="new">
+            <div class="content">
+                <span class="stop">&times;</span>
+                <form class="todoform">
+                    <div class="input">
+                        <input type="text" placeholder="Add a new Task .." class="todo-input form-control"
+                            id="textInput" />
+
+                        <select id="select" class="select">
+                            <option value="work">Work</option>
+                            <option value="personal">Personal</option>
+                            <option value="shopping">Shopping</option>
+                            <option value="shopping">Household</option>
+                        </select>
+                        <button id="todo-button" class="todo-button" type="submit">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+           
+        </div>
+
+
+    </div>
+
+
+   
+
+    <div class="footer">
+        <div class="section">
+            <input type="text" placeholder="Enter your task" id="toDo">
+        </div>
+
+        <h1 class="task1"> Empty!</h1>
+        <div class="text">
+            <ul id="List"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
